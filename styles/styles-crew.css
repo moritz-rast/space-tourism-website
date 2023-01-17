@@ -1,0 +1,133 @@
+.picture {
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    width: 30%;
+}
+
+.picture-specialist {
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    width: 25%;
+}
+
+.picture-engineer {
+    position: absolute;
+    right: 8%;
+    bottom: 0;
+    width: 33%;
+}
+
+@media only screen and (max-width:800px) {
+    .picture {
+        width: 40%;
+        left: 30%;
+    }
+    .picture-specialist {
+        width: 33%;
+        left: 30%;
+    }
+    .picture-engineer {
+        width: 45%;
+        left: 28%;
+    }
+}
+
+
+.info {
+    position: absolute;
+    top: 37%;
+    left: 12%;
+}
+
+.info h2 {
+    color: rgb(153, 153, 153);
+    font-size: 2rem;
+    margin-bottom: 5px;
+    letter-spacing: 1.3px;
+}
+
+.info h1 {
+    font-size: 3.7rem;
+}
+
+.info p {
+    width: 40%;
+}
+
+@media only screen and (max-width:800px) {
+    .info {
+        text-align: center;
+        top: 22%;
+        left: 17.5%;
+        width: 65%;
+    }
+    .info h2 {
+        font-size: 1.6rem;
+        margin-bottom: -16px;
+    }
+    .info h1 {
+        font-size: 2.6rem;
+    }
+    .info p {
+        margin-top: -2px;
+        width: 100%;
+        font-size: 0.8rem;
+    }
+}
+
+
+.arrow {
+    text-decoration: none;
+    font-size: 3rem;
+    transform:scale(1,1.8);
+    color: rgba(192, 178, 178, 0.424);
+}
+
+.left {
+    position: absolute;
+    left: 4%;
+    top: 47%;
+}
+
+.right {
+    position: absolute;
+    right: 4%;
+    top: 47%;
+}
+
+.next:hover {
+    color: white;
+    font-weight: 600;
+}
+
+
+.wheres {
+    position: absolute;
+    left: 12%;
+    bottom: 10%;
+}
+
+.where {
+    background-color: rgba(192, 178, 178, 0.424);
+    border-radius: 100%;
+    width: 14px;
+    height: 14px;
+}
+
+.where a {
+    color: rgba(240, 255, 255, 0);
+    font-size: 14px;
+}
+
+td {
+    padding-right: 20px;
+}
+
+@media only screen and (max-width:800px) {
+    .wheres {
+        left: 39.5%;
+        top: 50%;
+    }
+}

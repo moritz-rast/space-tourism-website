@@ -1,0 +1,70 @@
+.mercury {
+    position: absolute;
+    top: 45.5%;
+    left: 37%;
+}
+
+.mercury a {
+    font-size: 1.6rem;
+    color: rgba(245, 222, 179, 0);
+}
+
+
+.venus {
+    position: absolute;
+    top: 62%;
+    left: 57%;
+}
+
+.venus a {
+    font-size: 7rem;
+    color: rgba(240, 255, 255, 0);
+}
+
+
+.earth {
+    position: absolute;
+    top: 76%;
+    left: 86%;
+}
+
+.earth a {
+    font-size: 12rem;
+    color: rgba(0, 0, 255, 0);
+}
+
+
+.mars {
+    position: absolute;
+    top: 36.5%;
+    left: 90.2%;
+}
+
+.mars a {
+    font-size: 1.8rem;
+    color: rgba(0, 0, 255, 0);
+}
+
+
+.jupiter {
+    position: absolute;
+    top: 2%;
+    left: 76%;
+}
+
+.jupiter a {
+    font-size: 11rem;
+    color:rgba(0, 0, 255, 0);
+}
+
+
+.saturn {
+    position: absolute;
+    top: 10%;
+    left: 56%;
+}
+
+.saturn a {
+    font-size: 7rem;
+    color: rgba(245, 245, 220, 0);
+}

@@ -1,0 +1,100 @@
+.planet {
+    position: absolute;
+    bottom: 13%;
+    left: 13%;
+    width: 29%;
+}
+
+.planet-venus {
+    position: absolute;
+    bottom: 9%;
+    left: 12%;
+    width: 34%;
+}
+
+@media only screen and (max-width:800px) {
+    .planet {
+        top: 28%;
+        left: 30%;
+        width: 40%;
+    }
+}
+
+
+.planet-info {
+    position: absolute;
+    right: 7%;
+    top: 30%;
+    width: 35%;
+}
+
+.planet-info a {
+    color: rgba(255, 255, 255, 0.847);
+    text-decoration: none;
+    margin-right: 30px;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width:800px) {
+    .planet-info {
+        top: 78%;
+        left: 17.5%;
+        width: 65%;
+        text-align: center;
+    }
+    .planet-info a {
+        text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+
+h1 {
+    font-size: 8rem;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+    margin-top: -17px !important;
+    margin-left: -7px;
+}
+
+.description {
+    margin-top: -20px;
+    line-height: 2;
+}
+
+
+.destination-line {
+    margin-top: 30px;
+}
+
+td {
+    padding-right: 88px;
+}
+
+.what {
+    font-size: 0.86rem;
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.758);
+}
+
+.this {
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+@media only screen and (max-width:800px) {
+    h1 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    .what {
+        width: 150%;
+    }
+    .this {
+        width: 150%;
+    }
+}
